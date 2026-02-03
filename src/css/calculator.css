@@ -25,6 +25,8 @@
 
 .calculator .output-display .current-operand {
   color: rgba(255, 255, 255, 0.9);
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .calculator > button {
@@ -32,6 +34,7 @@
   background-color: rgba(255, 255, 255, 0.7);
   cursor: pointer;
   font-size: var(--font-size);
+  outline: none;
 }
 
 .calculator > button:hover {
